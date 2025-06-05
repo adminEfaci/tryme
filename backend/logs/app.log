@@ -1,0 +1,3 @@
+2025-06-05 21:54:15 - app.config.logging - INFO - logging - setup_logging - 93 - Logging configured for environment: development
+2025-06-05 21:54:15 - app.config.logging - INFO - logging - setup_logging - 94 - Log level: INFO
+2025-06-05 21:54:15 - app.config.logging - INFO - logging - setup_logging - 95 - Log directory: /workspace/tryme/backend/logs

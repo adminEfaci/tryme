@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES2017",
+    "module": "ES2022",
+    "lib": ["es2022", "DOM", "WebWorker", "DOM.Iterable"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "declaration": false,
+    "composite": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "exactOptionalPropertyTypes": false,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    "isolatedModules": true,
+    "incremental": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@builder.io/qwik",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "files": ["./.eslintrc.cjs"],
+  "include": ["src", "./*.d.ts", "./*.config.ts"],
+  "exclude": ["./dist", "./node_modules", "./server"]
+}
